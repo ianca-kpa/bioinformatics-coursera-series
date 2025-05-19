@@ -1,75 +1,49 @@
 # 🧬 Bioinformatics – Coursera Series (UC San Diego)
 
-This repository contains my full set of solutions and implementations for the **Bioinformatics Specialization** offered by the University of California San Diego on Coursera.
-
-All projects were completed using **Python** in **Jupyter Notebooks**, and are grouped into two sections:
-- **Bioinformatics I – Finding Hidden Messages in DNA**
-- **Bioinformatics II – Reconstructing Genes from Read-Pieces**
+This repository contains my complete work from the **Bioinformatics Specialization** on Coursera, offered by the **University of California San Diego**.  
+All notebooks were developed in **Python**, using **Jupyter Notebooks**, and reflect a structured learning path in genome analysis, algorithm design, and biological data interpretation.
 
 ---
 
-## 📘 Course Modules
+## 📘 Included Courses
 
 ### 📁 `Bioinformatics_I/` – *Finding Hidden Messages in DNA*
 
-This part of the specialization focuses on **string algorithms** applied to DNA sequences. Topics include:
-
-- Pattern matching and reverse complements
-- Approximate string matching with Hamming distance
+This course introduces **string processing algorithms** for analyzing DNA sequences.  
+Topics include:
+- Pattern matching and Hamming distance
+- Reverse complements and approximate matches
 - k-mer frequency and clump finding
-- Motif discovery using brute-force, greedy, randomized, and Gibbs sampling
-- Profile matrices, consensus strings, scoring
+- Motif finding using brute-force, greedy, randomized, and Gibbs sampler approaches
+- Profile matrices, consensus sequences, and scoring
 
-All notebooks are divided into subfolders by topic, such as:
-- `01-pattern-matching/`
-- `02-frequency-analysis/`
-- `03-mismatches-and-neighbors/`
-- `04-motif-search/`
-- `05-probability-tools/`
-- `06-motif-utilities/`
+➡️ [Go to `Bioinformatics_I/`](./Bioinformatics_I/)
 
 ---
 
-### 📁 `Bioinformatics_II/` – *Reconstructing Genes from Read-Pieces*
+### 📁 `Bioinformatics_II/` – *Genome Sequencing*
 
-This second part focuses on **genome assembly and peptide sequencing**, using graphs and mass spectrometry algorithms.
+This course focuses on **genome assembly and peptide sequencing** using graph theory and mass spectrometry techniques.  
+Topics include:
+- Overlap and De Bruijn graphs
+- Eulerian paths and genome reconstruction
+- Cyclopeptide sequencing from mass spectra
+- Spectral convolution and leaderboard algorithms
+- Peptide encoding and translation
 
-#### 🔷 `01-graph-based-assembly/`
-Algorithms based on graph theory and genome reconstruction:
-- k-mer composition
-- Overlap graphs
-- De Bruijn graphs
-- Eulerian paths & cycles
-- Contig construction and genome reassembly
-
-#### 🔷 `02-peptide-sequencing/`
-Mass spectrometry-based peptide inference and cyclopeptide sequencing:
-- Spectrum generation and scoring
-- Leaderboard and convolution-based sequencing
-- Linear and cyclic peptide spectrum matching
-- Spectral convolution and noise trimming
-
-#### 🔷 `03-translation-coding/`
-Bridging DNA and peptide sequences:
-- Peptide encoding from DNA
-- Reading gapped patterns and translation logic
-
-#### 🔷 `exercises/`
-Additional exercise notebooks for testing and review
+➡️ [Go to `Bioinformatics_II/`](./Bioinformatics_II/)
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Environment
 
 - Python 3.x  
 - Jupyter Notebook  
-- No external libraries required
+- No external libraries used
 
 ---
 
-## 🔗 Connect
+## 🔗 Author
 
 - [LinkedIn – Ianca Albuquerque](https://linkedin.com/in/ianca-kpa)  
 - [ORCID](https://orcid.org/0000-0003-2495-4821)
-
-
