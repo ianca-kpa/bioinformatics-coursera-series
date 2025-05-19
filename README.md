@@ -1,60 +1,75 @@
 # 🧬 Bioinformatics – Coursera Series (UC San Diego)
 
-This repository contains my personal implementation of algorithmic problems from the **Bioinformatics Specialization** on Coursera, offered by the University of California San Diego.
+This repository contains my full set of solutions and implementations for the **Bioinformatics Specialization** offered by the University of California San Diego on Coursera.
 
-The project is divided into two main parts, reflecting the content of the first two courses of the specialization:  
-**Bioinformatics I – Finding Hidden Messages in DNA**  
-**Bioinformatics II – Reconstructing Genes from Read-Pieces**
-
-All code is written in **Python** using **Jupyter Notebooks**, with no external libraries.
+All projects were completed using **Python** in **Jupyter Notebooks**, and are grouped into two sections:
+- **Bioinformatics I – Finding Hidden Messages in DNA**
+- **Bioinformatics II – Reconstructing Genes from Read-Pieces**
 
 ---
 
-## 📘 What you'll find here
+## 📘 Course Modules
 
 ### 📁 `Bioinformatics_I/` – *Finding Hidden Messages in DNA*
-This section covers basic string algorithms used in bioinformatics, including:
-- Searching for patterns in DNA sequences (exact and approximate)
-- Counting frequent motifs (k-mers)
-- Reverse complements and mismatches
-- Motif discovery using brute-force, greedy, randomized, and Gibbs sampling approaches
-- Calculating consensus sequences and scoring motifs
 
-These topics are essential for understanding how DNA sequences are analyzed and interpreted computationally.
+This part of the specialization focuses on **string algorithms** applied to DNA sequences. Topics include:
 
----
+- Pattern matching and reverse complements
+- Approximate string matching with Hamming distance
+- k-mer frequency and clump finding
+- Motif discovery using brute-force, greedy, randomized, and Gibbs sampling
+- Profile matrices, consensus strings, scoring
 
-### 📁 `Bioinformatics_II/` – *Genome Sequencing Bioinformatics_II*
-This section focuses on graph-based approaches to DNA assembly:
-- Building overlap graphs from short DNA reads
-- Constructing De Bruijn graphs from k-mers
-- Reconstructing genome sequences using Eulerian paths
-- Working with paired reads and fragmented genomes
-
-These methods simulate how modern sequencing machines process and reassemble genomes from small fragments.
+All notebooks are divided into subfolders by topic, such as:
+- `01-pattern-matching/`
+- `02-frequency-analysis/`
+- `03-mismatches-and-neighbors/`
+- `04-motif-search/`
+- `05-probability-tools/`
+- `06-motif-utilities/`
 
 ---
 
-## 🧠 Why this project matters
+### 📁 `Bioinformatics_II/` – *Reconstructing Genes from Read-Pieces*
 
-These notebooks show my ability to:
-- Translate biological problems into computational logic  
-- Implement classic bioinformatics algorithms from scratch  
-- Work with DNA data in realistic scenarios  
-- Document learning in a clear and reproducible way
+This second part focuses on **genome assembly and peptide sequencing**, using graphs and mass spectrometry algorithms.
+
+#### 🔷 `01-graph-based-assembly/`
+Algorithms based on graph theory and genome reconstruction:
+- k-mer composition
+- Overlap graphs
+- De Bruijn graphs
+- Eulerian paths & cycles
+- Contig construction and genome reassembly
+
+#### 🔷 `02-peptide-sequencing/`
+Mass spectrometry-based peptide inference and cyclopeptide sequencing:
+- Spectrum generation and scoring
+- Leaderboard and convolution-based sequencing
+- Linear and cyclic peptide spectrum matching
+- Spectral convolution and noise trimming
+
+#### 🔷 `03-translation-coding/`
+Bridging DNA and peptide sequences:
+- Peptide encoding from DNA
+- Reading gapped patterns and translation logic
+
+#### 🔷 `exercises/`
+Additional exercise notebooks for testing and review
 
 ---
 
-## ⚙️ Tools & Technologies
+## 🛠️ Tools Used
 
 - Python 3.x  
 - Jupyter Notebook  
-- No external libraries used
+- No external libraries required
 
 ---
 
-## 📫 Contact
+## 🔗 Connect
 
-- LinkedIn: [linkedin.com/in/ianca-kpa](https://linkedin.com/in/ianca-kpa)  
-- ORCID: [0000-0003-2495-4821](https://orcid.org/0000-0003-2495-4821)
+- [LinkedIn – Ianca Albuquerque](https://linkedin.com/in/ianca-kpa)  
+- [ORCID](https://orcid.org/0000-0003-2495-4821)
+
 
