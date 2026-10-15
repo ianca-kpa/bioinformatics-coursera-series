@@ -1,71 +1,142 @@
-# 🧬 Finding Hidden Messages in DNA – Bioinformatics I (UC San Diego / Coursera)
 
-This repository contains my full set of algorithm implementations and exercises from the Coursera course  
-**“Finding Hidden Messages in DNA (Bioinformatics I)”**, offered by the University of California San Diego.
+# Bioinformatics I — Finding Hidden Messages in DNA
 
-The notebooks are organized by topic and demonstrate the application of classic string algorithms to biological data, particularly DNA sequence analysis.
+A collection of Python implementations and Jupyter notebooks developed during the *Finding Hidden Messages in DNA* course of the Bioinformatics Specialization offered by the University of California San Diego on Coursera.
 
----
+This collection explores fundamental algorithms for DNA sequence analysis, pattern identification, k-mer frequency analysis, and motif discovery.
 
-## 📚 Course Summary
+## Repository Structure
 
-This course is part of the [Bioinformatics Specialization](https://www.coursera.org/specializations/bioinformatics) and focuses on solving real problems in genomics through string processing.  
-Topics covered include:
+### 01 — Pattern Matching
 
-- DNA pattern matching  
-- Frequency analysis and clump finding  
-- Reverse complements and approximate matches  
-- Motif discovery and consensus scoring  
-- Probabilistic approaches to motif search
+[Explore notebooks](./01-pattern-matching/)
 
----
+Fundamental algorithms for identifying and comparing patterns in DNA sequences.
 
-## 📂 Repository Structure
+Topics include:
 
-### `01-pattern-matching/`
-Fundamental pattern search in DNA sequences.
-
-- Pattern counting and locating  
-- Reverse complement  
-- Hamming distance  
+- Exact pattern matching
+- Pattern counting and locating
+- Reverse complements
+- Hamming distance
 - Approximate pattern matching
 
-### `02-frequency-analysis/`
-K-mer frequency, clump finding, and GC skew analysis.
+### 02 — Frequency Analysis
 
-- Frequency maps  
-- Clump finding  
-- Symbol arrays and skew diagrams
+[Explore notebooks](./02-frequency-analysis/)
 
-### `03-mismatches-and-neighbors/`
-Advanced k-mer frequency algorithms with mismatches and reverse complements.
+Computational approaches to identifying frequently occurring patterns and analyzing nucleotide distributions.
 
-### `04-motif-search/`
-Motif finding using enumeration, greedy, randomized, and Gibbs sampling algorithms.
+Topics include:
 
-### `05-probability-tools/`
-Probability models and weighted string generation for motifs.
+- K-mer frequency counting
+- Frequency maps
+- Clump finding
+- Symbol arrays
+- GC skew analysis
 
-### `06-motif-utilities/`
-Functions for computing profiles, consensus strings, scores, and pseudocounts.
+### 03 — Mismatches and Neighbors
 
----
+[Explore notebooks](./03-mismatches-and-neighbors/)
 
-## ⚙️ Tools & Technologies
+Algorithms for analyzing DNA patterns while allowing nucleotide mismatches.
 
-- Python 3  
-- Jupyter Notebook  
-- No external libraries required
+Topics include:
 
----
+- Approximate pattern matching
+- K-mer neighborhoods
+- Frequent patterns with mismatches
+- Reverse complement analysis
 
-## 📫 Contact
+### 04 — Motif Search
 
-Feel free to connect with me:
+[Explore notebooks](./04-motif-search/)
 
-- LinkedIn: [linkedin.com/in/ianca-kpa](https://linkedin.com/in/ianca-kpa)  
-- ORCID: [0000-0003-2495-4821](https://orcid.org/0000-0003-2495-4821)
+Algorithms for identifying shared sequence patterns across collections of DNA sequences.
 
----
+Topics include:
 
-📌 *This project is part of my transition into the field of Data Science and Digital Health. It reflects my learning path in algorithmic problem-solving applied to biological data.*
+- Motif enumeration
+- Greedy motif search
+- Randomized motif search
+- Gibbs sampling
+- Motif scoring
+
+### 05 — Probability Tools
+
+[Explore notebooks](./05-probability-tools/)
+
+Probability-based methods used in sequence analysis and motif discovery.
+
+Topics include:
+
+- Probability calculations
+- Profile-based sequence analysis
+- Weighted random selection
+- Probabilistic motif identification
+
+### 06 — Motif Utilities
+
+[Explore notebooks](./06-motif-utilities/)
+
+Supporting functions for representing, evaluating, and comparing DNA motifs.
+
+Topics include:
+
+- Profile matrices
+- Consensus sequences
+- Motif scoring
+- Pseudocounts
+- Sequence probability calculations
+
+## Technical Concepts
+
+The notebooks explore computational concepts relevant to biological sequence analysis, including:
+
+- Python programming
+- String processing algorithms
+- K-mer analysis
+- Sequence similarity and mismatch calculations
+- Frequency analysis
+- Algorithmic motif discovery
+- Probabilistic methods
+- Biological sequence interpretation
+
+## Tools and Environment
+
+- Python 3
+- Jupyter Notebook or JupyterLab
+- Python standard library
+
+Individual notebooks may require additional dependencies or associated input datasets.
+
+## Running the Notebooks
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ianca-kpa/bioinformatics-coursera-series.git
+cd bioinformatics-coursera-series
+```
+
+Open the notebooks using Jupyter Notebook, JupyterLab, or Visual Studio Code with the Jupyter extension.
+
+The notebooks are organized by topic and can be explored individually.
+
+Some exercises use external input files stored in the `dataset/` directory.
+
+When executing these notebooks, ensure that relative file paths correspond to the current Jupyter working directory.
+
+## Educational Context
+
+These implementations originated from coursework and personal programming practice during the UC San Diego Bioinformatics Specialization.
+
+They illustrate foundational computational methods for biological sequence analysis.
+
+The notebooks are educational implementations. Additional code review, testing, and documentation improvements may be introduced as the repository is progressively refined.
+
+## Related Repository
+
+[Bioinformatics — Coursera Series](../)
+
+For genome assembly and peptide sequencing algorithms, see [Bioinformatics II](../Bioinformatics_II/).
